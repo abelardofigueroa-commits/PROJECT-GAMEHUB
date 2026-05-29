@@ -1,0 +1,32 @@
+using UnityEngine;
+
+public class EnemyFollow : MonoBehaviour
+{
+    public Transform Player;
+    public float Speed;
+
+    void Update()
+    {
+        FollowPlayer();
+    }
+
+    public void FollowPlayer()
+    {
+        if (Player != null)
+        {
+            Vector3 dir = Player.position - transform.position;
+
+            dir.Normalize();
+
+            transform.position += dir * Speed * Time.deltaTime;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Destroy(other.gameObject);
+        }
+    }
+}
