@@ -1,0 +1,26 @@
+using UnityEngine;
+
+public class PushRune : MonoBehaviour
+{
+    public Transform Enemy;
+    public float PushDistance;
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            PushEnemy();
+
+            Destroy(gameObject);
+        }
+    }
+
+    public void PushEnemy()
+    {
+        Vector3 dir = Enemy.position - transform.position;
+
+        dir.Normalize();
+
+        Enemy.position += dir * PushDistance;
+    }
+}
