@@ -4,6 +4,11 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform Player;
 
+    void Start()
+    {
+
+    }
+
     void Update()
     {
         FollowPlayer();
@@ -11,10 +16,10 @@ public class CameraFollow : MonoBehaviour
 
     public void FollowPlayer()
     {
-        transform.position = new Vector3(
-            Player.position.x,
-            Player.position.y,
-            -10
-        );
+        Vector3 CameraPosition = Player.position;
+
+        CameraPosition.z = -10;
+
+        transform.position = CameraPosition;
     }
 }
