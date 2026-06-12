@@ -3,6 +3,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform Player;
+    public float Speed;
 
     void Start()
     {
@@ -16,8 +17,16 @@ public class CameraFollow : MonoBehaviour
 
     public void FollowPlayer()
     {
-        Vector3 CameraPosition = Player.position;
+        float x = Player.position.x - transform.position.x;
+        float y = Player.position.y - transform.position.y;
 
+        Vector3 dir = new Vector3(x, y, 0);
+
+        dir.Normalize();
+
+        transform.position += dir * Speed * Time.deltaTime;
+
+        Vector3 CameraPosition = transform.position;
         CameraPosition.z = -10;
 
         transform.position = CameraPosition;
