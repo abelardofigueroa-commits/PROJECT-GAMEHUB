@@ -1,13 +1,19 @@
 using UnityEngine;
 
-public class example : MonoBehaviour
+public class Player1 : MonoBehaviour
 {
     public float HorizontalMovement;
     public float VerticalMovement;
     public float Speed;
+    public Sprite Front;
+    public Sprite Back;
+    public Sprite Left;
+    public Sprite Right;
+
+    private SpriteRenderer SR;
     void Start()
     {
-
+        SR = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -21,6 +27,22 @@ public class example : MonoBehaviour
 
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
+        if (x > 0)
+        {
+            SR.sprite = Right;
+        }
+        else if (x < 0)
+        {
+            SR.sprite = Left;
+        }
+        else if (y > 0)
+        {
+            SR.sprite = Back;
+        }
+        else if (y < 0)
+        {
+            SR.sprite = Front;
+        }
 
         Vector3 dir = new Vector3(x, y, 0);
         dir.Normalize();
