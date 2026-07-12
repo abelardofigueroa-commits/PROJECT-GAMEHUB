@@ -1,0 +1,37 @@
+using UnityEngine;
+
+public class Bullet : MonoBehaviour
+{
+    public float Speed = 50f;
+    public float TimeAlive = 3f;
+
+    void Start()
+    {
+        Destroy(gameObject, TimeAlive);
+    }
+
+    void Update()
+    {
+        transform.position += transform.up * Speed * Time.deltaTime;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            Debug.Log("TOQUE ENEMIGO");
+
+            EnemyFollow enemy =
+                other.GetComponent<EnemyFollow>();
+
+            if (enemy != null)
+            {
+                Debug.Log("ENCONTRE ENEMYFOLLOW");
+
+                enemy.FreezeEnemy();
+            }
+
+            Destroy(gameObject);
+        }
+    }
+}

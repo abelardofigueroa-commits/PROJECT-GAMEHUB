@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: d5f72c60bc826bc4fae06a20591c82f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4062569021506464701
+    second: Life Bar 2 life_0
+  - first:
+      213: 2996768079229519802
+    second: Life Bar 2 life_1
+  - first:
+      213: -7040193153650707171
+    second: Life Bar 2 life_2
+  - first:
+      213: 4223530268308207496
+    second: Life Bar 2 life_3
+  - first:
+      213: 9142925971460268391
+    second: Life Bar 2 life_4
+  - first:
+      213: 6733033687623875887
+    second: Life Bar 2 life_5
+  - first:
+      213: -1388950188775991529
+    second: Life Bar 2 life_6
+  - first:
+      213: 1938650165374363019
+    second: Life Bar 2 life_7
+  - first:
+      213: 1135871963047302996
+    second: Life Bar 2 life_8
+  - first:
+      213: 8885578029336144249
+    second: Life Bar 2 life_9
+  - first:
+      213: 3479423689568943700
+    second: Life Bar 2 life_10
+  - first:
+      213: 6686113560136304824
+    second: Life Bar 2 life_11
+  - first:
+      213: 2006777351930959689
+    second: Life Bar 2 life_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 38
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Life Bar 2 life_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 389
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb266a2005216830800000000000000
+      internalID: 4062569021506464701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 357
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab784b4c0b8a69920800000000000000
+      internalID: 2996768079229519802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 325
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15338690a53c4e90800000000000000
+      internalID: -7040193153650707171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 293
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887fe9cd66efc9a30800000000000000
+      internalID: 4223530268308207496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 261
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7612590dab232ee70800000000000000
+      internalID: 9142925971460268391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 229
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d3f8b377a807d50800000000000000
+      internalID: 6733033687623875887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 197
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7179b4b892579bce0800000000000000
+      internalID: -1388950188775991529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 165
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8524e2dd0877ea10800000000000000
+      internalID: 1938650165374363019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 133
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45792c3488d63cf00800000000000000
+      internalID: 1135871963047302996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 101
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979a89ec32aef4b70800000000000000
+      internalID: 8885578029336144249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 69
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ef5df2965694030800000000000000
+      internalID: 3479423689568943700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 37
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8c8dfbbd8d9cc50800000000000000
+      internalID: 6686113560136304824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar 2 life_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947d4258e5189db10800000000000000
+      internalID: 2006777351930959689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Life Bar 2 life_0: 4062569021506464701
+      Life Bar 2 life_1: 2996768079229519802
+      Life Bar 2 life_10: 3479423689568943700
+      Life Bar 2 life_11: 6686113560136304824
+      Life Bar 2 life_12: 2006777351930959689
+      Life Bar 2 life_2: -7040193153650707171
+      Life Bar 2 life_3: 4223530268308207496
+      Life Bar 2 life_4: 9142925971460268391
+      Life Bar 2 life_5: 6733033687623875887
+      Life Bar 2 life_6: -1388950188775991529
+      Life Bar 2 life_7: 1938650165374363019
+      Life Bar 2 life_8: 1135871963047302996
+      Life Bar 2 life_9: 8885578029336144249
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
